@@ -1,2 +1,2 @@
 # landing-page-3
-My third landing page
+My third landing page - responsive
