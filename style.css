@@ -41,6 +41,8 @@ body {
 img,
 iframe {
     display: block;
+    height: 250px;
+    width: 250px;
 }
 
 .section-1 button {
@@ -71,7 +73,7 @@ header h1 {
 
 nav ul {
     display: flex;
-    gap: 25px;
+    gap: 20px;
 
 }
 
@@ -85,6 +87,8 @@ nav ul li a {
     color: #e5e7eb;
     font-size: 18px;
     line-height: 1.2;
+    padding: 10px;
+
 
 }
 
@@ -97,4 +101,69 @@ nav ul li a {
 
 a:hover {
     border-bottom: 2px solid greenyellow;
+}
+
+.section-2 h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.section-2 {
+    padding: 25px 40px 60px 40px;
+}
+
+.round-corner img, 
+iframe {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+    padding: 45px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.name {
+    font-weight: 700;
+    text-align: right;
+    color: #1f2937;
+}
+
+.section-4 {
+    padding: 80px 0px;
+}
+
+.bg-blue {
+    background-color: blue;
+    padding: 45px 75px;
+    justify-content: space-between;
+}
+
+.section-4 p,
+h2
+{
+    color: #f9faf8;
+}
+
+.section-4 button {
+    background-color: blue;
+    padding: 4px 18px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.section-5 {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 25px 0;
 }
