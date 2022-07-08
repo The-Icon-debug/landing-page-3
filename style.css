@@ -34,7 +34,6 @@ body {
 }
 
 .section-1 img {
-    height: 250px;
     width: 500px;
 }
 
@@ -43,6 +42,7 @@ iframe {
     display: block;
     height: 250px;
     width: 250px;
+    max-width: 100%;
 }
 
 .section-1 button {
@@ -64,6 +64,8 @@ header {
     display: flex;
     margin-bottom: 45px;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
 header h1 {
@@ -74,6 +76,7 @@ header h1 {
 nav ul {
     display: flex;
     gap: 20px;
+    flex-direction: column;
 
 }
 
@@ -97,6 +100,7 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     gap: 40px;
+    flex-direction: column;
 }
 
 a:hover {
@@ -143,9 +147,10 @@ iframe {
 }
 
 .bg-blue {
-    background-color: blue;
+    background-color: #3882f6;
     padding: 45px 75px;
     justify-content: space-between;
+    border-radius: 15px;
 }
 
 .section-4 p,
@@ -155,7 +160,7 @@ h2
 }
 
 .section-4 button {
-    background-color: blue;
+    background-color: #3882f6;
     padding: 4px 18px;
     border: 2px solid white;
     border-radius: 5px;
@@ -166,4 +171,17 @@ h2
     color: #f9faf8;
     text-align: center;
     padding: 25px 0;
+}
+
+
+@media (min-width: 40em) {
+    header,
+    nav ul,
+    .split {
+        flex-direction: row;
+    }
+
+    .eq-colmn > * {
+        flex-basis: 100%;
+    }
 }
